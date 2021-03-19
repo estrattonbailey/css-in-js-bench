@@ -9,7 +9,7 @@ import * as styledComponents from './benchmarks/StyledSystem'
 
 const theme = hypostyle(presets)
 
-export const ITERATIONS = 10000
+export const ITERATIONS = 100
 
 theme.injectGlobal({
   'html, body': {
@@ -47,7 +47,7 @@ function Runner (props) {
   React.useEffect(() => {
     if (i === null) return
 
-    if (i > 100) {
+    if (i > ITERATIONS) {
       stop()
       return
     }
