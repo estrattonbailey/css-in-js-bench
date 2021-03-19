@@ -6,15 +6,20 @@
     "dev": "poi --serve"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
     "poi": "^12.4.2"
   },
   "dependencies": {
     "@emotion/css": "^11.1.3",
+    "@hypobox/react": "^0.2.0",
+    "@truework/ui": "^1.0.4",
     "goober": "^2.0.33",
     "hypostyle": "^2.3.0",
     "nano-css": "^5.3.1",
     "netlify-cli": "^3.8.3",
     "react": "^17.0.1",
-    "styled-components": "^5.2.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5"
   }
 }
