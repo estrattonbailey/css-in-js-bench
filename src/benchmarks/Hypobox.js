@@ -11,7 +11,7 @@ export function bench({ i }) {
   const size = ((i / ITERATIONS) * 100 + 10) + 'px'
 
   return (
-    <Hypo value={theme}>
+    <Hypo hypostyle={theme}>
       <Box f aic jcc h="500px" style={{ overflow: 'hidden' }}>
         <Box mx={2} w={size} h={size} bg='blue' style={{
           borderRadius: '1000px'

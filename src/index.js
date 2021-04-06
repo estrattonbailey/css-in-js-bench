@@ -80,7 +80,7 @@ function App() {
 
 render(
   (
-    <Hypo value={theme}>
+    <Hypo hypostyle={theme}>
       <App />
     </Hypo>
   ),
